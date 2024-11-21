@@ -48,14 +48,14 @@ export const ProductImageGallery: React.FC<ProductImageGalleryProps> = ({ images
               className="absolute left-0 top-1/2 -translate-y-1/2 ml-5 bg-[#363636] hover:bg-[#4a4c4c] opacity-70 w-11 h-11 flex items-center justify-center"
               onClick={handleSlideLeft}
             >
-              <img src="/images/leftArrow.svg" alt="Left arrow" className="w-[18px] h-[22px]" />
+              <img src="images/leftArrow.svg" alt="Left arrow" className="w-[18px] h-[22px]" />
             </button>
 
             <button
               className="absolute right-0 top-1/2 -translate-y-1/2 mr-5 bg-[#363636] hover:bg-[#4a4c4c] opacity-70 w-11 h-11 flex items-center justify-center"
               onClick={handleSlideRight}
             >
-              <img src="/images/rightArrow.svg" alt="Right arrow" className="w-[18px] h-[22px]" />
+              <img src="images/rightArrow.svg" alt="Right arrow" className="w-[18px] h-[22px]" />
             </button>
           </>
         )}

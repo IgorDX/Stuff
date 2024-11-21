@@ -8,7 +8,7 @@ export const useUserImage = (setIsMobileNavOpen: (state: boolean) => void, curre
   useEffect(() => {
 
     if (!currentUser) {
-      setUserImage('/images/user-avatar.svg');
+      setUserImage('images/user-avatar.svg');
       return;
     }
     if (isImageVisibleWithoutDelay) {

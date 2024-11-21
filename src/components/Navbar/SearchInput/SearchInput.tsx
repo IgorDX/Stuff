@@ -47,7 +47,7 @@ const SearchInput = React.forwardRef<HTMLInputElement, SearchInputProps>((
   return (
     <div className="relative">
       <div className={`${isExpanded ? 'rounded-t-md' : 'rounded-md'} ${cn(searchInputVariants({ variant, size, animation, className }))}`}>
-        <img className="text-white ml-[10px] mr-4 w-3 h-3 cursor-pointer" src="/images/loop.svg" alt="Loop" />
+        <img className="text-white ml-[10px] mr-4 w-3 h-3 cursor-pointer" src="images/loop.svg" alt="Loop" />
         <input
           value={value}
           ref={ref}

@@ -21,7 +21,7 @@ export const Navbar = () => {
     <Container>
     <UserAuth isDrawerOpen={userSignUpIsOpen} setIsDrawerOpen={setUserSignUpIsOpen}></UserAuth>
     <header className='relative flex z-[199] justify-normal navInputHide:justify-between items-center  mr-1  py-5 gap-5'>
-       <Link to={"/"} className='flex-shrink-0'> <img src="/images/logo.svg" alt="Logo" onClick={()=> setIsMobileNavOpen(false)}/></Link>
+       <Link to={"/"} className='flex-shrink-0'> <img src="images/logo.svg" alt="Logo" onClick={()=> setIsMobileNavOpen(false)}/></Link>
          <div className="hidden navInputHide:block">
       <UserInput setIsMobileNavOpen={setIsMobileNavOpen} setIsDrawerOpen={setUserSignUpIsOpen}></UserInput>
       </div>

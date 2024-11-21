@@ -19,7 +19,7 @@ export const useCartContent = (productsData: ProductWithQuantity[], setIsDrawerO
     ) : (
       <div className="flex flex-col items-center justify-center h-full">
                <div className="flex flex-col gap-5">
-               <img src='/images/box.png' alt='No items' />
+               <img src='images/box.png' alt='No items' />
                <h3 className='text-white text-3xl my-auto text-center'>Cart is empty!</h3>
          </div>
 

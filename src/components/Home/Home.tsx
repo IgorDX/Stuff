@@ -31,7 +31,7 @@ export const Home = () => {
       <Showcase header='Worth seeing' data={categories.categoriesList}></Showcase>
       </div>
       <div className="mb-9">
-        <SaleAdd title='new year' imgRight='/images/snowman.png' imgLeftF='/images/imgLeftF.png' imgLeftS='/images/imgLeftS.png' saveMoney='50%'></SaleAdd>
+        <SaleAdd title='new year' imgRight='images/snowman.png' imgLeftF='images/imgLeftF.png' imgLeftS='images/imgLeftS.png' saveMoney='50%'></SaleAdd>
       </div>
         <Showcase header='Less than 100$' data={products.filtered}></Showcase>
     </>

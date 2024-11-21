@@ -52,7 +52,7 @@ export const Shop = () => {
               <Showcase  data={data}></Showcase>
             </div>
             : <div className="flex justify-center items-center flex-col">
-            <img src="/images/no-product-found.png" alt="No product found" />
+            <img src="images/no-product-found.png" alt="No product found" />
           
           </div>
             }

@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
 <footer className="bg-customGray mt-5 p-6">
   <div className="container mx-auto flex justify-between items-center flex-col gap-5 xs:flex-row">
-  <Link to={"/"} className='flex-shrink-0'> <img src="/images/logo.svg" alt="Logo" /></Link>
+  <Link to={"/"} className='flex-shrink-0'> <img src="images/logo.svg" alt="Logo" /></Link>
     
     <div className="text-sm text-gray-400">
       Developed by <a href="#" className="text-purple-500">igor_dx</a>

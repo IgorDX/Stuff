@@ -19,7 +19,7 @@ export const Product: React.FC = () => {
         <div className="bg-customGray w-full">
           {(!data ? (
             <div className="flex justify-center items-center flex-col">
-              <img src="/images/no-product-found.png" alt="No product found" />
+              <img src="images/no-product-found.png" alt="No product found" />
               <span className="text-white text-2xl pb-5">Product not found.</span>
             </div>
           ) : (
